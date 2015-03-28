@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RoboTracker control page</title>
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/ajax.js"></script>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<script src="js/events.js"></script>
+<script src="js/key-pressed.js"></script>
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="100%" colspan="4" bgcolor="#CCCCFF">
+		<p align="center"><font size="5">RoboTracker Control UI 0.1</font></td>
+	</tr>
+	<tr>
+		<td width="50%" rowspan="2"><img src="http://192.168.1.1:310/?action=stream" width="640" height="480" alt=""></td>
+		<td width="10%" rowspan="2">		
+		</td>
+		<td width="30%" height="52">		
+			<p>
+				<label for="amount">Overview angle:</label>
+				<input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
+			</p>
+			<div id="slider-range-max"></div>
+		</td>
+		<td width="10%" rowspan="2">
+			&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="30%">		
+			<p align="center">
+			<img border="0" id="up" src="img/up.jpg" width="64" height="60"></p>
+			<p align="center">
+			<img border="0" id="left" src="img/left.jpg" width="64" height="60">&nbsp;&nbsp;&nbsp;
+			<img border="0" id="release" src="img/release.jpg" width="64" height="60">&nbsp;&nbsp;&nbsp;
+			<img border="0" id="right" src="img/right.jpg" width="64" height="60"></p>
+			<p align="center">
+			<img border="0" id="down" src="img/down.jpg" width="64" height="60"></td>
+		</tr>
+	</table>
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="1319" bgcolor="#CCCCFF">&nbsp;</td>
+	</tr>
+</table>
+
+<script src="js/arrows.js"></script>
+
+</body>
+
+</html>
